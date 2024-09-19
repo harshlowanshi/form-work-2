@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+
+    height: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-section-one{
+
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar-section-one img{
+
+height: 150px;
+padding-right: 2%;
+
+
+}
+.navbar-section-two{
+
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+font-size: larger;
+
+}
+
+.navbar-section-three{
+
+
+width: 35%;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.navbar-section-three button{
+
+    width: 80px;
+    height: 30px;
+    background: transparent;
+    border-radius: 20px;
+    
+}
+
+.main-content{
+
+    width: 100%;
+    height: 45%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-direction: column;
+     gap: 4px;
+}
+
+.main-content h1{
+    font-size: 55px;
+    
+}
+
+.main-content p{
+
+    font-size: large;
+    margin-bottom:  65px;
+}
+
+.main-container input{
+
+width: 300px;
+height: 33px;
+gap: 3px;
+border-radius: 15px;
+background: transparent;
+}
+
+.main-content button{
+
+width: 126px;
+height: 33px;
+border-radius: 15px;
+background-color: black;
+color: white;
+}
+
+
+.foodbar-section{
+width: 100%;
+height: 33px;
+
+display: flex;
+
+align-items: center;
+justify-content: center;
+gap: 65%;
+
+}
+
+.foodbar-section h4{
+
+    font-size: 20px;
+
+}
+
+.foodbar-section a{
+
+    font-size: 20px;
+color: black;
+
+}
+
+
+.card-section{
+width: 100%;
+height: 252px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+gap: 7%;
+
+}
+
+.box-one{
+width: 300px;
+height: 200px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 25px;
+border-radius: 10px;
+box-shadow: 5px 5px 5px 5px rgb(87, 87, 87);
+}
+
+.box-one span{
+    display: flex;
+    gap: 55px;
+}
+
+.box-one hr{
+width: 83%;
+color: black;
+}
+
+.box-one h5{
+
+gap: 200p;
+}
+
+
+.box-one button{
+
+width: 55px;
+height: 25px;
+border-radius: 12px;
+background-color: black;
+color: white;
+}
